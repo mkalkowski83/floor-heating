@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+# KiCad local
+*-backups/
+*.kicad_prl
+fp-info-cache
+# Secrets / local ESPHome
+secrets.yaml
+.esphome/
