@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib
+    (name "floor-heat")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/symbols/floor-heat.kicad_sym")
+    (options "")
+    (descr "Symbole modułu ogrzewania podłogowego")
+  )
+)
