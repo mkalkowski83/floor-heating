@@ -48,3 +48,48 @@ Aktywne stanem niskim: GPIO = 0 załącza przekaźnik.
 | 4 | 1-Wire, U4 i U5 |
 
 K1–K8: COM = faza, NO = siłownik, drugi przewód siłownika na `N_OBC`. Siłownik zasilony = zawór otwarty. K10 bez 230 V i bez zacisku Burner off.
+
+## Notatki ze schematu
+
+Notatki i komentarze przeniesione z arkusza KiCad (bez zmian treści).
+
+**Tytuł arkusza:**
+
+- ESP32 + HLK-10M05 + przekaźniki 8+2 + 2x DS18B20
+- Zworka JD-VCC zdjeta. VCC logiki = 3,3 V. Cewki = 5 V.
+
+**Przy przekaźnikach i RT:**
+
+```
+K10 RT: suchy styk.
+Bez 230 V. Nie Burner off.
+```
+
+```
+NC niepodłączone.
+K1–K9: NO = faza załączana, drugi zacisk = N.
+```
+
+**Opis modułu:**
+
+```
+Moduł góra. Ten sam układ na moduł dół.
+Zworka JD-VCC–VCC zdjęta na U2 i U3.
++5V (HLK +Vo) → VIN ESP i JD-VCC cewek.
+VCC przy IN = +3V3 z ESP. Na GPIO nie podawać 5V.
+Przy programowaniu nie łączyć USB z +5V naraz.
+HLK w zamkniętej obudowie. F1 tylko dla HLK, F2 dla siłowników.
+GND logiki nie łączy się z N sieci.
+
+Aktywne LOW: GPIO = 0 załącza przekaźnik.
+K1–K8 zawór 230V NC. COM = L, NO = siłownik, drugi przewód na N.
+Siłownik zasilony = zawór otwarty.
+K9 pompa, rezerwa, w fazie 1 niepodłączona.
+K10 suchy styk NO–COM na zacisk RT (VC 15CS/1-5).
+Nie podawać 230V. Nie używać Burner off
+(zarezerwowany pod Maximalthermostat podłogówki).
+Failsafe firmware, brak HA/Wi-Fi: zawory i pompa ON, HD OFF.
+
+2× DS18B20, 1-Wire GPIO4, 4,7 kΩ do 3,3 V.
+Zasilanie i powrót rozdzielacza, montaż przylgowy.
+```

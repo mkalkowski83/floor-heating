@@ -8,8 +8,6 @@
 		(title "Ogrzewanie podłogowe — moduł góra")
 		(date "2026-11-02")
 		(rev "0.1")
-		(comment 1 "ESP32 + HLK-10M05 + przekaźniki 8+2 + 2x DS18B20")
-		(comment 2 "Zworka JD-VCC zdjeta. VCC logiki = 3,3 V. Cewki = 5 V.")
 	)
 	(lib_symbols
 		(symbol "floor-heat:DS18B20"
@@ -2694,39 +2692,6 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "K10 RT: suchy styk.\nBez 230 V. Nie Burner off."
-		(exclude_from_sim no)
-		(at 341.884 201.168 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "0771674d-5756-4c3f-9d59-6852307a7533")
-	)
-	(text "NC niepodłączone.\nK1–K9: NO = faza załączana, drugi zacisk = N."
-		(exclude_from_sim no)
-		(at 364.998 179.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "1b618dbe-d5fc-47af-8c19-74b093fe2584")
-	)
-	(text "Moduł góra. Ten sam układ na moduł dół.\nZworka JD-VCC–VCC zdjęta na U2 i U3.\n+5V (HLK +Vo) → VIN ESP i JD-VCC cewek.\nVCC przy IN = +3V3 z ESP. Na GPIO nie podawać 5V.\nPrzy programowaniu nie łączyć USB z +5V naraz.\nHLK w zamkniętej obudowie. F1 tylko dla HLK, F2 dla siłowników.\nGND logiki nie łączy się z N sieci.\n\nAktywne LOW: GPIO = 0 załącza przekaźnik.\nK1–K8 zawór 230V NC. COM = L, NO = siłownik, drugi przewód na N.\nSiłownik zasilony = zawór otwarty.\nK9 pompa, rezerwa, w fazie 1 niepodłączona.\nK10 suchy styk NO–COM na zacisk RT (VC 15CS/1-5).\nNie podawać 230V. Nie używać Burner off\n(zarezerwowany pod Maximalthermostat podłogówki).\nFailsafe firmware, brak HA/Wi-Fi: zawory i pompa ON, HD OFF.\n\n2× DS18B20, 1-Wire GPIO4, 4,7 kΩ do 3,3 V.\nZasilanie i powrót rozdzielacza, montaż przylgowy."
-		(exclude_from_sim no)
-		(at 300.228 213.868 0)
-		(effects
-			(font
-				(size 1.4 1.4)
-			)
-			(justify left top)
-		)
-		(uuid "73f130e9-3830-4b90-a78e-cefa8adb1adc")
 	)
 	(junction
 		(at 99.06 237.49)
