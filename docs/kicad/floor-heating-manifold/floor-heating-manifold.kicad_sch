@@ -2692,6 +2692,80 @@
 			)
 			(embedded_fonts no)
 		)
+	
+	(symbol "floor-heat:TERM_N"
+			(pin_numbers (hide yes))
+			(pin_names (offset 0.508) (hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Value" "N"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Zacisk śrubowy listwy N_OBC"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "TERM_N_0_1"
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 2.54)
+					(stroke (width 0.254) (type default))
+					(fill (type background))
+				)
+			)
+			(symbol "TERM_N_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "1"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects (font (size 1.27 1.27)))
+					)
+					(number "2"
+						(effects (font (size 1.27 1.27)))
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 99.06 237.49)
@@ -2798,12 +2872,7 @@
 	(no_connect
 		(at 317.5 118.11)
 		(uuid "96eaa61a-fdec-4bb2-8434-16efff9901ba")
-	)
-	(no_connect
-		(at 368.3 193.04)
-		(uuid "9b46b967-4b51-4009-8053-209ddd4309a0")
-	)
-	(no_connect
+	)	(no_connect
 		(at 317.5 102.87)
 		(uuid "afc2e3c9-ad6a-413f-a740-823e79b6b9e4")
 	)
@@ -2866,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 138.43) (xy 360.68 138.43)
+			(xy 353.06 138.43) (xy 368.3 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 92.71) (xy 360.68 92.71)
+			(xy 353.06 92.71) (xy 368.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2985,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 107.95) (xy 360.68 107.95)
+			(xy 353.06 107.95) (xy 368.3 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3257,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 115.57) (xy 360.68 115.57)
+			(xy 353.06 115.57) (xy 368.3 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3474,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 85.09) (xy 360.68 85.09)
+			(xy 353.06 85.09) (xy 368.3 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3674,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 100.33) (xy 360.68 100.33)
+			(xy 353.06 100.33) (xy 368.3 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3616,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 123.19) (xy 360.68 123.19)
+			(xy 353.06 123.19) (xy 368.3 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3712,7 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 130.81) (xy 360.68 130.81)
+			(xy 353.06 130.81) (xy 368.3 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3750,18 +3819,7 @@
 			(justify left bottom)
 		)
 		(uuid "0bc59231-68df-4490-8776-3a909f9f4abb")
-	)
-	(label "N_OBC"
-		(at 360.68 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1150d1f4-1a20-4131-8333-c831c828bb8c")
-	)
-	(label "L_OBC"
+	)	(label "L_OBC"
 		(at 71.12 45.72 0)
 		(effects
 			(font
@@ -3770,18 +3828,7 @@
 			(justify left bottom)
 		)
 		(uuid "26449779-ac4a-4e0f-98e0-884deff5e09b")
-	)
-	(label "N_OBC"
-		(at 360.68 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27c5e465-5690-4a2a-a928-fe960f6ce8ba")
-	)
-	(label "L_OBC"
+	)	(label "L_OBC"
 		(at 322.58 130.81 0)
 		(effects
 			(font
@@ -3790,18 +3837,7 @@
 			(justify left bottom)
 		)
 		(uuid "2f7158df-163a-41a7-bb25-1bf80031d1ef")
-	)
-	(label "N_OBC"
-		(at 360.68 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3737c8c4-0221-496b-b92e-190eed9a586b")
-	)
-	(label "L_OBC"
+	)	(label "L_OBC"
 		(at 322.58 123.19 0)
 		(effects
 			(font
@@ -3820,18 +3856,7 @@
 			(justify left bottom)
 		)
 		(uuid "3ec0479e-637f-45dc-ad21-50114560e054")
-	)
-	(label "N_OBC"
-		(at 360.68 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ff9a435-6ace-4108-82a3-8f1a41a10119")
-	)
-	(label "L_OBC"
+	)	(label "L_OBC"
 		(at 322.58 115.57 0)
 		(effects
 			(font
@@ -3840,48 +3865,7 @@
 			(justify left bottom)
 		)
 		(uuid "56f8a93c-802a-499c-bde2-088187fca37f")
-	)
-	(label "N_OBC"
-		(at 368.3 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63723f33-e74f-4968-8ba4-ccaa3c9baf15")
-	)
-	(label "N_OBC"
-		(at 360.68 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a3d509a-cb1a-4106-835e-7f2f405dd520")
-	)
-	(label "N_OBC"
-		(at 360.68 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "943ba639-2dc8-41d0-85dc-b187120c0b6e")
-	)
-	(label "N_OBC"
-		(at 360.68 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f360e11-d42e-45ce-91bc-2888fd7c0a15")
-	)
-	(label "L_OBC"
+	)	(label "L_OBC"
 		(at 322.58 92.71 0)
 		(effects
 			(font
@@ -3910,18 +3894,7 @@
 			(justify left bottom)
 		)
 		(uuid "f690a54f-7d5c-43dd-8217-4992ec16a193")
-	)
-	(label "N_OBC"
-		(at 360.68 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa4b48b5-aca6-416a-a34c-a3c39ec81db2")
-	)
-	(label "L_OBC"
+	)	(label "L_OBC"
 		(at 322.58 85.09 0)
 		(effects
 			(font
@@ -6851,6 +6824,866 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f49cc2a-d8de-4e00-92fe-3b6b64c95b19")
+		(property "Reference" "J12"
+			(at 391.16 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do ZAW1"
+			(at 391.16 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecd3b8ea-5991-420f-a8fc-61956bb50ea4")
+		)
+		(pin "2"
+			(uuid "1bd65018-3e5f-4b02-a69b-77b90d4d1c35")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99a82978-a12d-4af1-84e5-90ba1637b24b")
+		(property "Reference" "J13"
+			(at 391.16 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do ZAW2"
+			(at 391.16 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71707621-5372-4f67-bc81-cc0460b54e97")
+		)
+		(pin "2"
+			(uuid "93343de4-728f-4131-86a6-4c917ab636f8")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f981b0e-b4f0-4955-8750-5909519286ac")
+		(property "Reference" "J14"
+			(at 391.16 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do ZAW3"
+			(at 391.16 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bada6f7f-dc45-4acc-8a79-d77db0cab5df")
+		)
+		(pin "2"
+			(uuid "0d546d72-8ff4-44b5-a025-aa8356ebe246")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38936b9a-fa3d-4d6b-bcf4-52970c985d6f")
+		(property "Reference" "J15"
+			(at 391.16 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do ZAW4"
+			(at 391.16 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11a12c53-5bf2-4138-a7c4-5874f34a32c8")
+		)
+		(pin "2"
+			(uuid "9862b518-b9b7-4a01-bc40-ef4dfd267d9c")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2d844838-017d-4de8-8f3c-20a91494a23f")
+		(property "Reference" "J16"
+			(at 391.16 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do ZAW5"
+			(at 391.16 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67a3237a-7859-4ed0-a1af-2c23b6d6a665")
+		)
+		(pin "2"
+			(uuid "99a65e6e-fcc4-4457-9c8d-0bd0fef2f96e")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4758ba6-aab7-495a-a418-73f74eb28e6d")
+		(property "Reference" "J17"
+			(at 391.16 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do ZAW6"
+			(at 391.16 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3405cbe3-bd76-4698-86c0-a30b0639bdf1")
+		)
+		(pin "2"
+			(uuid "226db3b5-1879-443d-bb0e-b935f73f8976")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "036fb6cd-20c7-42f1-9763-0bb992830968")
+		(property "Reference" "J18"
+			(at 391.16 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do ZAW7"
+			(at 391.16 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d92f409e-30c0-42ab-ab52-ccac734a20b6")
+		)
+		(pin "2"
+			(uuid "077fc218-5715-46a2-9963-57e1e6537b78")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdc94066-29b1-4eff-98bc-3a3a4433124c")
+		(property "Reference" "J19"
+			(at 391.16 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do ZAW8"
+			(at 391.16 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "322dfd75-da52-4164-93ed-6f9e60824763")
+		)
+		(pin "2"
+			(uuid "a2c29cda-4b19-45e2-8785-a3fa712a6b3a")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "floor-heat:TERM_N")
+		(at 373.38 193.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14dfffbc-9bba-4705-bcf1-b79684dafa3d")
+		(property "Reference" "J20"
+			(at 391.16 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "do POMPA"
+			(at 391.16 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0151f910-9dec-4674-9f63-69e3b3e9d8b9")
+		)
+		(pin "2"
+			(uuid "8caf4b40-6d5e-4d4c-a4de-85946fc28054")
+		)
+		(instances
+			(project "floor-heating-manifold"
+				(path "/a7c3e1b4-6d28-4f0a-9b15-2c8e4d6f0a11"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 378.46 85.09) (xy 378.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0641be-178c-42b4-9c53-f516448a4e3c")
+	)
+	(wire
+		(pts
+			(xy 378.46 92.71) (xy 378.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82db6d71-aa06-467b-b741-d59580bbe73c")
+	)
+	(wire
+		(pts
+			(xy 378.46 100.33) (xy 378.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9f3c1db-d485-4ca4-b5c4-0961d8fa5f36")
+	)
+	(wire
+		(pts
+			(xy 378.46 107.95) (xy 378.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492a2149-fa08-4335-a31a-4a1f1670a59d")
+	)
+	(wire
+		(pts
+			(xy 378.46 115.57) (xy 378.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edeef81-2c57-4555-ad83-48b550de42a8")
+	)
+	(wire
+		(pts
+			(xy 378.46 123.19) (xy 378.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5dc980e-87d8-42f1-9624-a6d4cb912727")
+	)
+	(wire
+		(pts
+			(xy 378.46 130.81) (xy 378.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d21d12-a283-43ea-a1a1-aa467d507eda")
+	)
+	(wire
+		(pts
+			(xy 378.46 138.43) (xy 378.46 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26a944a-7c9f-4e1a-bc31-5e880093f429")
+	)
+	(wire
+		(pts
+			(xy 378.46 193.04) (xy 378.46 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb399ab-6d0b-4969-8b49-64308ce05045")
+	)
+	(label "N_OBC"
+		(at 378.46 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd14a16f-7f27-447a-8ea0-5f352e5b5eba")
+	)
+	(junction
+		(at 378.46 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90d51c58-8465-488e-9eea-bc79244f2f79")
+	)
+	(junction
+		(at 378.46 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c01da06-6fb9-47f7-ae5f-4a4238ae0faa")
+	)
+	(junction
+		(at 378.46 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0537e90c-fdf9-4838-a8b1-d70056e84a83")
+	)
+	(junction
+		(at 378.46 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6f20bdc-c868-4475-8923-532414b98728")
+	)
+	(junction
+		(at 378.46 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a67dcc9-75eb-40be-b0b9-37b79bde5aad")
+	)
+	(junction
+		(at 378.46 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "790a5148-fab9-440d-b317-b0eb741d26df")
+	)
+	(junction
+		(at 378.46 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2117f45-5bb5-4100-8fa5-d8240e433f49")
+	)
+	(junction
+		(at 378.46 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a843a7-58d2-4c49-8319-e4c02b3eec07")
+	)
+
 	(sheet_instances
 		(path "/"
 			(page "1")

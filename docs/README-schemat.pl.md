@@ -20,9 +20,11 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 | U4 | DS18B20 | Temperatura zasilania rozdzielacza, montaż przylgowy |
 | U5 | DS18B20 | Temperatura powrotu rozdzielacza, montaż przylgowy |
 | R1 | 4,7 kΩ | Pull-up magistrali 1-Wire do 3,3 V |
-| J2–J9 | Zacisk 2-pin | ZAW1–ZAW8. Pin 1 (lewa) = faza z NO, pin 2 (prawa) = `N_OBC` |
-| J10 | Zacisk 2-pin | Pompa, rezerwa. Pin 1 = faza z NO, pin 2 = `N_OBC` |
+| J2–J9 | Zacisk 2-pin | ZAW1–ZAW8. Pin 1 (lewa) = faza z NO, pin 2 (prawa) = kabel do listwy N |
+| J10 | Zacisk 2-pin | Pompa, rezerwa. Pin 1 = faza z NO, pin 2 = kabel do listwy N |
 | J11 | Zacisk 2-pin | Suchy styk RT kotła. Pin 1 = NO, pin 2 = COM. Bez 230 V |
+| J12–J19 | Zacisk śrubowy listwy N | Po jednym na zawór. Pin 1 = kabel do pinu 2 ZAW1–ZAW8, pin 2 = wspólna linia `N_OBC` |
+| J20 | Zacisk śrubowy listwy N | Pin 1 = kabel do pinu 2 pompy, pin 2 = ta sama linia `N_OBC` |
 
 ## Sieci
 
@@ -31,7 +33,7 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 | `L` / `N` | Sieć na J1 |
 | `AC/L` / `AC/N` | Wejście HLK za F1 |
 | `L_OBC` | Faza za F2, na COM przekaźników K1–K9 |
-| `N_OBC` | Neutral obciążeń, pin 2 zaworów i pompy. Nie łączyć z `GND` |
+| `N_OBC` | Neutral obciążeń. Przy J1 schodzi na listwę J12–J20: pin 2 tych zacisków jest zwarty w jedną linię, a z pinu 1 idzie osobny kabel do zaworu albo pompy. Nie łączyć z `GND` |
 | `+5V` | Wyjście HLK: VIN ESP i JD-VCC cewek |
 | `+3V3` | Z ESP: VCC optoizolacji i pull-up DS18B20. Na GPIO nie podawać 5 V |
 | `GND` | Masa logiki |
