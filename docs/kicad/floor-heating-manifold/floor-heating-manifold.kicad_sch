@@ -2708,7 +2708,7 @@
 	)
 	(text "NC niepodłączone.\nK1–K9: NO = faza załączana, drugi zacisk = N."
 		(exclude_from_sim no)
-		(at 362.712 188.214 0)
+		(at 364.998 179.578 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2735,6 +2735,12 @@
 		(uuid "0c49b619-e8e6-4bce-b853-d5ab27a6da09")
 	)
 	(junction
+		(at 160.02 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f86402-5688-4ac5-abad-aa0328bc8867")
+	)
+	(junction
 		(at 127 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2743,7 +2749,7 @@
 	(junction
 		(at 40.64 218.44)
 		(diameter 0)
-		(color 0 0 0 0)
+		(color 255 0 0 1)
 		(uuid "a359265d-0f51-4852-80c1-3fa0056e1bf0")
 	)
 	(junction
@@ -2757,6 +2763,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "defd040c-ab4d-487f-b900-1c6360bd9900")
+	)
+	(junction
+		(at 153.67 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3bb0879-6892-4d97-adf9-4c0ed6f6ad5a")
 	)
 	(junction
 		(at 118.11 48.26)
@@ -2828,6 +2840,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "0058137b-3a19-4e72-915d-6c5ec282c891")
 	)
@@ -2869,8 +2882,20 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "14a2de13-7c91-40ea-b7e8-64c36f3b88e0")
+	)
+	(wire
+		(pts
+			(xy 40.64 90.17) (xy 40.64 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "15554f53-ec99-438c-ac46-e720b8644143")
 	)
 	(wire
 		(pts
@@ -2879,6 +2904,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "19b1fc06-2ff1-46c4-9882-9fc29a03b488")
 	)
@@ -2921,8 +2947,20 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "36449a47-d6e6-4708-9775-9300acb22385")
+	)
+	(wire
+		(pts
+			(xy 17.78 259.08) (xy 17.78 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3b5c382e-6b0b-422d-bc67-a03d525fefe9")
 	)
 	(wire
 		(pts
@@ -2931,6 +2969,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "3e936f97-b198-4e7e-9c52-f17a6108f6b3")
 	)
@@ -2941,6 +2980,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "407a7869-d60d-4768-a733-c47d58e3bfe0")
 	)
@@ -2961,6 +3001,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "4416800c-09f5-4265-8c3e-3dc9b4d83d6e")
 	)
@@ -3144,8 +3185,20 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "69873d43-f211-4d02-8849-282a029b5313")
+	)
+	(wire
+		(pts
+			(xy 153.67 228.6) (xy 153.67 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "69b3fb15-6118-4dd5-8353-3ef647c59b10")
 	)
 	(wire
 		(pts
@@ -3187,6 +3240,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "7163797d-8b39-4841-8932-651315840da7")
 	)
@@ -3197,8 +3251,20 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "72b5a895-87b2-4dbb-ae3e-27966cc88de7")
+	)
+	(wire
+		(pts
+			(xy 40.64 90.17) (xy 167.64 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "73926226-8840-4e01-8e3f-55264a0ce616")
 	)
 	(wire
 		(pts
@@ -3207,6 +3273,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "744fba65-7aaa-401f-a3a1-b94e8279f25b")
 	)
@@ -3259,6 +3326,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "837adb05-9388-4314-b6f6-4fa85b2e089f")
 	)
@@ -3331,6 +3399,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "917c3d2c-3a88-4ca5-a24b-e32b90957bf5")
 	)
@@ -3388,11 +3457,23 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 259.08) (xy 17.78 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a595c8ea-f1a9-4cff-b67d-9dc78d79b92b")
+	)
+	(wire
+		(pts
 			(xy 317.5 85.09) (xy 322.58 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "a5ae9a18-adfd-486a-9947-771bbbba3455")
 	)
@@ -3466,6 +3547,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 72 48 6 1)
 		)
 		(uuid "b9d17b7a-619f-49c7-b93d-3d92ab28b3c9")
 	)
@@ -3491,16 +3573,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 90.17) (xy 160.02 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdbf4fe4-efff-4803-aec0-1e9307fb2488")
-	)
-	(wire
-		(pts
 			(xy 266.7 177.8) (xy 259.08 177.8)
 		)
 		(stroke
@@ -3516,6 +3588,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "d78fa3d9-addf-4027-8cde-e989ae51f5d5")
 	)
@@ -3526,6 +3599,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "d846af81-8693-43d7-b876-872703233ed2")
 	)
@@ -3583,11 +3657,23 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 218.44) (xy 40.64 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f638d3a6-a57c-49e8-b309-9cef001b846a")
+	)
+	(wire
+		(pts
 			(xy 148.59 228.6) (xy 153.67 228.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 0 1)
 		)
 		(uuid "f6b5785c-487d-43b4-b6c9-5b333664e022")
 	)
@@ -3598,6 +3684,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "f6e3d1bc-f2e3-4f3a-974b-bcf3a7927b4a")
 	)
@@ -3834,7 +3921,7 @@
 		(dnp no)
 		(uuid "00d445bc-f3a0-4549-a01f-a4ffdb7b1432")
 		(property "Reference" "J10"
-			(at 354.33 190.246 0)
+			(at 354.33 189.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3844,7 +3931,7 @@
 			)
 		)
 		(property "Value" "POMPA"
-			(at 354.33 193.548 0)
+			(at 354.33 191.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3903,7 +3990,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 40.64 218.44 0)
+		(at 40.64 218.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3913,7 +4000,7 @@
 		(dnp no)
 		(uuid "13251aaa-6d46-48f0-82da-132dff958e06")
 		(property "Reference" "#PWR013"
-			(at 40.64 215.9 0)
+			(at 38.1 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,7 +4011,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 40.64 220.98 0)
+			(at 43.18 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
