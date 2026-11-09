@@ -2,7 +2,7 @@
 
 Date: 2026-10-30 · Revised: 2026-10-30 (temp., radio, Vaillant HD/pompa)  
 Repo: `floor-heating` (new) · Prior art: ESPHome + HA (`tank-level`, `GageGateSens`), eBUS kotła  
-BOM (faza 1): [`../../bom/floor-heating-manifold-phase1.xlsx`](../../bom/floor-heating-manifold-phase1.xlsx)  
+BOM (faza 1): [`../../bom/floor-heating-manifold-phase1.xlsx`](../../bom/floor-heating-manifold-phase1.xlsx) (przenieś na Dysk Google wg uznania)  
 Schemat połączeń: [`../../kicad/floor-heating-manifold/floor-heating-manifold.kicad_pro`](../../kicad/floor-heating-manifold/floor-heating-manifold.kicad_pro)  
 Kocioł: Vaillant ecoTEC plus **VC 15CS/1-5** (15 kW, 0010024646) + systemregler eBUS + ebusd
 

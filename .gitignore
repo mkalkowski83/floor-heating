@@ -10,3 +10,4 @@ fp-info-cache
 # Secrets / local ESPHome
 secrets.yaml
 .esphome/
+/docs/kicad/floor-heating-manifold/.history/
