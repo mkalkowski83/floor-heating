@@ -2112,6 +2112,124 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "floor-heat:TERM_ACT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "zacisk"
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zacisk śrubowy 2-pin"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TERM_ACT_0_1"
+				(rectangle
+					(start -2.54 -3.81)
+					(end 5.08 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TERM_ACT_1_1"
+				(pin passive line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2746,7 +2864,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 138.43) (xy 353.06 138.43)
+			(xy 353.06 138.43) (xy 360.68 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2756,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 92.71) (xy 353.06 92.71)
+			(xy 353.06 92.71) (xy 360.68 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2956,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 107.95) (xy 353.06 107.95)
+			(xy 353.06 107.95) (xy 360.68 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3084,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 115.57) (xy 353.06 115.57)
+			(xy 353.06 115.57) (xy 360.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3208,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 85.09) (xy 353.06 85.09)
+			(xy 353.06 85.09) (xy 360.68 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3393,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 100.33) (xy 353.06 100.33)
+			(xy 353.06 100.33) (xy 360.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3403,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 123.19) (xy 353.06 123.19)
+			(xy 353.06 123.19) (xy 360.68 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3475,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 130.81) (xy 353.06 130.81)
+			(xy 353.06 130.81) (xy 360.68 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3514,7 +3632,7 @@
 		(uuid "0bc59231-68df-4490-8776-3a909f9f4abb")
 	)
 	(label "N_OBC"
-		(at 353.06 130.81 0)
+		(at 360.68 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3534,7 +3652,7 @@
 		(uuid "26449779-ac4a-4e0f-98e0-884deff5e09b")
 	)
 	(label "N_OBC"
-		(at 353.06 100.33 0)
+		(at 360.68 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3554,7 +3672,7 @@
 		(uuid "2f7158df-163a-41a7-bb25-1bf80031d1ef")
 	)
 	(label "N_OBC"
-		(at 353.06 107.95 0)
+		(at 360.68 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3584,7 +3702,7 @@
 		(uuid "3ec0479e-637f-45dc-ad21-50114560e054")
 	)
 	(label "N_OBC"
-		(at 353.06 138.43 0)
+		(at 360.68 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3614,7 +3732,7 @@
 		(uuid "63723f33-e74f-4968-8ba4-ccaa3c9baf15")
 	)
 	(label "N_OBC"
-		(at 353.06 115.57 0)
+		(at 360.68 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3624,7 +3742,7 @@
 		(uuid "8a3d509a-cb1a-4106-835e-7f2f405dd520")
 	)
 	(label "N_OBC"
-		(at 353.06 123.19 0)
+		(at 360.68 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3634,7 +3752,7 @@
 		(uuid "943ba639-2dc8-41d0-85dc-b187120c0b6e")
 	)
 	(label "N_OBC"
-		(at 353.06 92.71 0)
+		(at 360.68 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3674,7 +3792,7 @@
 		(uuid "f690a54f-7d5c-43dd-8217-4992ec16a193")
 	)
 	(label "N_OBC"
-		(at 353.06 85.09 0)
+		(at 360.68 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4541,7 +4659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 345.44 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -4705,7 +4823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 345.44 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -4784,7 +4902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 345.44 114.3 0)
 		(unit 1)
 		(body_style 1)
@@ -5332,7 +5450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 345.44 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -5411,7 +5529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 345.44 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -5908,7 +6026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 345.44 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -6220,7 +6338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 345.44 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -6299,7 +6417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 345.44 129.54 0)
 		(unit 1)
 		(body_style 1)
