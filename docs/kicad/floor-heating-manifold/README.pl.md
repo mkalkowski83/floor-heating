@@ -2,6 +2,8 @@
 
 Schemat połączeń modułu górnego: ESP32 DevKit V1, HLK-10M05, przekaźniki 8+2 i dwa DS18B20.
 
+Legenda oznaczeń i PDF: [README-schemat.pl.md](README-schemat.pl.md).
+
 ## Otwarcie
 
 `docs/kicad/floor-heating-manifold/floor-heating-manifold.kicad_pro`
