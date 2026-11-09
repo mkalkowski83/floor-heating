@@ -25,6 +25,8 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 | J11 | Zacisk 2-pin | Suchy styk RT kotła. Pin 1 = NO, pin 2 = COM. Bez 230 V |
 | J12–J19 | Zacisk śrubowy listwy N | Po jednym na zawór. Pin 1 = kabel do pinu 2 ZAW1–ZAW8, pin 2 = wspólna linia `N_OBC` |
 | J20 | Zacisk śrubowy listwy N | Pin 1 = kabel do pinu 2 pompy, pin 2 = ta sama linia `N_OBC` |
+| J21–J28 | Zacisk śrubowy listwy L | Po jednym na kanał K1–K8. Pin 1 = kabel na COM przekaźnika, pin 2 = wspólna linia `L_OBC` |
+| J29 | Zacisk śrubowy listwy L | Pin 1 = kabel na COM pompy (K9), pin 2 = ta sama linia `L_OBC` |
 
 ## Sieci
 
@@ -32,7 +34,7 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 |---|---|
 | `L` / `N` | Sieć na J1 |
 | `AC/L` / `AC/N` | Wejście HLK za F1 |
-| `L_OBC` | Faza za F2, na COM przekaźników K1–K9 |
+| `L_OBC` | Faza za F2. Na listwie J21–J29 pin 2 jest zwarty w jedną linię, a z pinu 1 idzie osobny kabel na COM kanału K1–K9. Styk NO zostaje na pinie 1 zaworu albo pompy. RT (K10) nie jest na tej linii |
 | `N_OBC` | Neutral obciążeń. Przy J1 schodzi na listwę J12–J20: pin 2 tych zacisków jest zwarty w jedną linię, a z pinu 1 idzie osobny kabel do zaworu albo pompy. Nie łączyć z `GND` |
 | `+5V` | Wyjście HLK: VIN ESP i JD-VCC cewek |
 | `+3V3` | Z ESP: VCC optoizolacji i pull-up DS18B20. Na GPIO nie podawać 5 V |

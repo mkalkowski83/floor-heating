@@ -2183,4 +2183,77 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TERM_S"
+		(pin_numbers (hide yes))
+		(pin_names (offset 0.508) (hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "L"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Zacisk śrubowy listwy L_OBC"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(symbol "TERM_S_0_1"
+			(rectangle
+				(start -1.27 -1.27)
+				(end 1.27 1.27)
+				(stroke (width 0.254) (type default))
+				(fill (type background))
+			)
+		)
+		(symbol "TERM_S_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "1"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "1"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "2"
+					(effects (font (size 1.27 1.27)))
+				)
+				(number "2"
+					(effects (font (size 1.27 1.27)))
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
