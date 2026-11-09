@@ -2799,7 +2799,7 @@
 		(uuid "96eaa61a-fdec-4bb2-8434-16efff9901ba")
 	)
 	(no_connect
-		(at 340.36 193.04)
+		(at 368.3 193.04)
 		(uuid "9b46b967-4b51-4009-8053-209ddd4309a0")
 	)
 	(no_connect
@@ -3139,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 193.04) (xy 340.36 193.04)
+			(xy 360.68 193.04) (xy 368.3 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3722,7 +3722,7 @@
 		(uuid "56f8a93c-802a-499c-bde2-088187fca37f")
 	)
 	(label "N_OBC"
-		(at 340.36 193.04 0)
+		(at 368.3 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3823,7 +3823,7 @@
 		(uuid "fdb63e8f-36dc-40e0-9b8c-e95e95b74c88")
 	)
 	(symbol
-		(lib_id "floor-heat:TERM2")
+		(lib_id "floor-heat:TERM_ACT")
 		(at 353.06 191.77 0)
 		(unit 1)
 		(body_style 1)
