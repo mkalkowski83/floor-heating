@@ -4,7 +4,7 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 
 [floor-heating-manifold.pdf](floor-heating-manifold.pdf)
 
-Źródło: [`floor-heating-manifold.kicad_pro`](floor-heating-manifold.kicad_pro). Ten sam układ dotyczy modułu dolnego.
+Źródło: [`kicad/floor-heating-manifold/floor-heating-manifold.kicad_pro`](kicad/floor-heating-manifold/floor-heating-manifold.kicad_pro). Ten sam układ dotyczy modułu dolnego.
 
 ## Legenda
 
