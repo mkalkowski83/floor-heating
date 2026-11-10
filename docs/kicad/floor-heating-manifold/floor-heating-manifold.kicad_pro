@@ -502,6 +502,291 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "L",
+        "pcb_color": "rgba(72, 72, 0, 1.000)",
+        "priority": 1,
+        "schematic_color": "rgba(72, 72, 0, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "N",
+        "pcb_color": "rgba(0, 0, 255, 1.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 255, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 1.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Zasilanie",
+        "pcb_color": "rgba(255, 0, 0, 1.000)",
+        "priority": 4,
+        "schematic_color": "rgba(255, 0, 0, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO4",
+        "pcb_color": "rgba(0, 128, 0, 1.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 128, 0, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO16",
+        "pcb_color": "rgba(255, 128, 0, 1.000)",
+        "priority": 6,
+        "schematic_color": "rgba(255, 128, 0, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO17",
+        "pcb_color": "rgba(128, 0, 128, 1.000)",
+        "priority": 7,
+        "schematic_color": "rgba(128, 0, 128, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO18",
+        "pcb_color": "rgba(0, 128, 128, 1.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 128, 128, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO19",
+        "pcb_color": "rgba(255, 20, 147, 1.000)",
+        "priority": 9,
+        "schematic_color": "rgba(255, 20, 147, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO21",
+        "pcb_color": "rgba(75, 0, 130, 1.000)",
+        "priority": 10,
+        "schematic_color": "rgba(75, 0, 130, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO22",
+        "pcb_color": "rgba(139, 69, 19, 1.000)",
+        "priority": 11,
+        "schematic_color": "rgba(139, 69, 19, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO23",
+        "pcb_color": "rgba(30, 144, 255, 1.000)",
+        "priority": 12,
+        "schematic_color": "rgba(30, 144, 255, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO25",
+        "pcb_color": "rgba(50, 205, 50, 1.000)",
+        "priority": 13,
+        "schematic_color": "rgba(50, 205, 50, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO26",
+        "pcb_color": "rgba(199, 21, 133, 1.000)",
+        "priority": 14,
+        "schematic_color": "rgba(199, 21, 133, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GPIO27",
+        "pcb_color": "rgba(218, 165, 32, 1.000)",
+        "priority": 15,
+        "schematic_color": "rgba(218, 165, 32, 1.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
@@ -516,9 +801,270 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "net_colors": {
+      "Net-(U3-NO1)": "#484800",
+      "Net-(J10-Pad2)": "#0000FF",
+      "Net-(J18-Pad1)": "#0000FF",
+      "/N_OBC": "#0000FF",
+      "Net-(U2-COM8)": "#484800",
+      "/L_OBC": "#484800",
+      "Net-(U2-COM2)": "#484800",
+      "+5V": "#FF0000",
+      "+3V3": "#FF0000",
+      "GND": "#000000",
+      "Net-(U1-IO16)": "#FF8000",
+      "Net-(U1-IO17)": "#800080",
+      "Net-(U1-IO18)": "#008080",
+      "Net-(U1-IO19)": "#FF1493",
+      "Net-(U1-IO21)": "#4B0082",
+      "Net-(U1-IO22)": "#8B4513",
+      "Net-(U1-IO23)": "#1E90FF",
+      "Net-(U1-IO25)": "#32CD32",
+      "Net-(U1-IO26)": "#C71585",
+      "Net-(U1-IO27)": "#DAA520",
+      "Net-(U1-IO4)": "#008000",
+      "Net-(J16-Pad1)": "#0000FF",
+      "Net-(J15-Pad1)": "#0000FF",
+      "Net-(U2-NO1)": "#484800",
+      "Net-(U2-COM1)": "#484800",
+      "unconnected-(U2-NC1-Pad14)": "#484800",
+      "Net-(U2-NO2)": "#484800",
+      "unconnected-(U2-NC2-Pad17)": "#484800",
+      "Net-(U2-NO3)": "#484800",
+      "Net-(U2-COM3)": "#484800",
+      "unconnected-(U2-NC3-Pad20)": "#484800",
+      "Net-(U2-NO4)": "#484800",
+      "Net-(U2-COM4)": "#484800",
+      "unconnected-(U2-NC4-Pad23)": "#484800",
+      "Net-(U2-NO5)": "#484800",
+      "Net-(U2-COM5)": "#484800",
+      "unconnected-(U2-NC5-Pad26)": "#484800",
+      "Net-(U2-NO6)": "#484800",
+      "Net-(U2-COM6)": "#484800",
+      "unconnected-(U2-NC6-Pad29)": "#484800",
+      "Net-(U2-NO7)": "#484800",
+      "Net-(U2-COM7)": "#484800",
+      "unconnected-(U2-NC7-Pad32)": "#484800",
+      "Net-(U2-NO8)": "#484800",
+      "unconnected-(U2-NC8-Pad35)": "#484800",
+      "Net-(J19-Pad1)": "#0000FF",
+      "Net-(PS1-AC/L)": "#484800",
+      "Net-(J12-Pad1)": "#0000FF",
+      "Net-(J14-Pad1)": "#0000FF",
+      "Net-(J17-Pad1)": "#0000FF",
+      "Net-(J13-Pad1)": "#0000FF",
+      "Net-(U3-COM1)": "#484800",
+      "unconnected-(U3-NC1-Pad8)": "#484800",
+      "Net-(J1-L)": "#484800"
+    },
+    "netclass_assignments": [
+      {
+        "net": "Net-(U3-NO1)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(J10-Pad2)",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(J18-Pad1)",
+        "netclass": "N"
+      },
+      {
+        "net": "/N_OBC",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(U2-COM8)",
+        "netclass": "L"
+      },
+      {
+        "net": "/L_OBC",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-COM2)",
+        "netclass": "L"
+      },
+      {
+        "net": "+5V",
+        "netclass": "Zasilanie"
+      },
+      {
+        "net": "+3V3",
+        "netclass": "Zasilanie"
+      },
+      {
+        "net": "GND",
+        "netclass": "GND"
+      },
+      {
+        "net": "Net-(U1-IO16)",
+        "netclass": "GPIO16"
+      },
+      {
+        "net": "Net-(U1-IO17)",
+        "netclass": "GPIO17"
+      },
+      {
+        "net": "Net-(U1-IO18)",
+        "netclass": "GPIO18"
+      },
+      {
+        "net": "Net-(U1-IO19)",
+        "netclass": "GPIO19"
+      },
+      {
+        "net": "Net-(U1-IO21)",
+        "netclass": "GPIO21"
+      },
+      {
+        "net": "Net-(U1-IO22)",
+        "netclass": "GPIO22"
+      },
+      {
+        "net": "Net-(U1-IO23)",
+        "netclass": "GPIO23"
+      },
+      {
+        "net": "Net-(U1-IO25)",
+        "netclass": "GPIO25"
+      },
+      {
+        "net": "Net-(U1-IO26)",
+        "netclass": "GPIO26"
+      },
+      {
+        "net": "Net-(U1-IO27)",
+        "netclass": "GPIO27"
+      },
+      {
+        "net": "Net-(U1-IO4)",
+        "netclass": "GPIO4"
+      },
+      {
+        "net": "Net-(J16-Pad1)",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(J15-Pad1)",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(U2-NO1)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-COM1)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-NO2)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-NO3)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-COM3)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-NO4)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-COM4)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-NO5)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-COM5)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-NO6)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-COM6)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-NO7)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-COM7)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(U2-NO8)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(J19-Pad1)",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(PS1-AC/L)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(J12-Pad1)",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(J14-Pad1)",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(J17-Pad1)",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(J13-Pad1)",
+        "netclass": "N"
+      },
+      {
+        "net": "Net-(U3-COM1)",
+        "netclass": "L"
+      },
+      {
+        "net": "Net-(J1-L)",
+        "netclass": "L"
+      }
+    ],
+    "netclass_patterns": [
+      {
+        "pattern": "^(L|L_OBC|/L|/L_OBC)$",
+        "netclass": "L"
+      },
+      {
+        "pattern": "AC/L",
+        "netclass": "L"
+      },
+      {
+        "pattern": "^(N|N_OBC|/N|/N_OBC)$",
+        "netclass": "N"
+      },
+      {
+        "pattern": "AC/N",
+        "netclass": "N"
+      },
+      {
+        "pattern": "^GND$",
+        "netclass": "GND"
+      },
+      {
+        "pattern": "^(\\+5V|\\+3V3|VCC)$",
+        "netclass": "Zasilanie"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

@@ -42,6 +42,35 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 | `+3V3` | Z ESP: VCC optoizolacji i pull-up DS18B20. Na GPIO nie podawać 5 V |
 | `GND` | Masa logiki |
 
+## Kolory przewodów
+
+Każdy przewód dostaje kolor swojej sieci. Te cztery kolory są zarezerwowane i nie wolno ich użyć do GPIO:
+
+| Sieć | Kolor | Hex |
+|---|---|---|
+| Faza: `L`, `L_OBC`, `AC/L`, styk COM/NO kanałów K1–K9 i kabel na pin 1 zaworu albo pompy | oliwkowy | `#484800` |
+| Neutral: `N`, `N_OBC`, `AC/N` i kabel na pin 2 zaworu albo pompy | niebieski | `#0000FF` |
+| `GND` | czarny | `#000000` |
+| `+5V`, VCC i `+3V3` | czerwony | `#FF0000` |
+
+Suchy styk RT (K10, J11) nie jest fazą ani neutralem, więc zostaje w domyślnym kolorze linii.
+
+Każdy GPIO ma własny kolor, inny niż kolory z tabeli powyżej:
+
+| GPIO | Kolor | Hex |
+|---|---|---|
+| IO4, 1-Wire | zieleń | `#008000` |
+| IO16, K1 | pomarańcz | `#FF8000` |
+| IO17, K2 | fiolet | `#800080` |
+| IO18, K3 | cyjan | `#008080` |
+| IO19, K4 | róż | `#FF1493` |
+| IO21, K5 | indygo | `#4B0082` |
+| IO22, K6 | brąz | `#8B4513` |
+| IO23, K7 | błękit | `#1E90FF` |
+| IO25, K8 | limonka | `#32CD32` |
+| IO26, K9 pompa | magenty | `#C71585` |
+| IO27, K10 RT | złoty | `#DAA520` |
+
 ## GPIO
 
 Aktywne stanem niskim: GPIO = 0 załącza przekaźnik.
