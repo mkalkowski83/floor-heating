@@ -1,0 +1,7 @@
+Uwagi
+Kocioł: Vaillant ecoTEC plus VC 15CS/1-5 + systemregler eBUS + ebusd
+HD: eBUS z HA (główne) + styk z modułu jako bramka CO — NIE Burner off
+Pompa: tylko rezerwa przekaźnika w fazie 1
+Temp.: 2× DS18B20 przylgowo; opcja A = tuleje
+Radio: Wi‑Fi IoT bez WAN
+Import do Google Sheets: Plik → Importuj → Prześlij → ten CSV (separator: przecinek)
