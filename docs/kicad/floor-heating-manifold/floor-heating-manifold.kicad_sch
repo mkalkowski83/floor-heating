@@ -3890,7 +3890,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 30.48) (xy 38.1 45.72)
+			(xy 38.1 30.48) (xy 38.1 15.24)
 		)
 		(stroke
 			(width 0)
@@ -4096,17 +4096,6 @@
 			(color 72 72 0 1)
 		)
 		(uuid "8ad0b670-ec1c-4861-a578-833a25147d35")
-	)
-	(wire
-		(pts
-			(xy 63.5 45.72) (xy 71.12 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 72 72 0 1)
-		)
-		(uuid "8b4fc257-fd1b-41d9-bb63-7f93e27afc67")
 	)
 	(wire
 		(pts
@@ -4330,17 +4319,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 45.72) (xy 48.26 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 72 72 0 1)
-		)
-		(uuid "b74c6546-3113-46d0-9c39-ce72f775907f")
-	)
-	(wire
-		(pts
 			(xy 213.36 102.87) (xy 266.7 102.87)
 		)
 		(stroke
@@ -4549,7 +4527,7 @@
 		(uuid "fd5b162f-5df6-4d28-9866-fc935d642fa1")
 	)
 	(label "L_OBC"
-		(at 71.12 45.72 0)
+		(at 71.12 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7509,7 +7487,7 @@
 	)
 	(symbol
 		(lib_id "floor-heat:FUSE")
-		(at 55.88 45.72 0)
+		(at 55.88 15.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7519,7 +7497,7 @@
 		(dnp no)
 		(uuid "af9a9ef8-fb5e-4814-9eb2-0df02a29f4c9")
 		(property "Reference" "F2"
-			(at 55.88 43.18 0)
+			(at 55.88 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7529,7 +7507,7 @@
 			)
 		)
 		(property "Value" "T2A"
-			(at 55.88 48.26 0)
+			(at 55.88 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7539,7 +7517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 45.72 0)
+			(at 55.88 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7550,7 +7528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 45.72 0)
+			(at 55.88 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7561,7 +7539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 45.72 0)
+			(at 55.88 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8769,6 +8747,28 @@
 				)
 			)
 		)
+	)
+	(wire
+		(pts
+			(xy 38.1 15.24) (xy 48.26 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 0 1)
+		)
+		(uuid "3a68b9bc-87aa-4858-b716-653c28ad5b7c")
+	)
+	(wire
+		(pts
+			(xy 63.5 15.24) (xy 71.12 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 72 72 0 1)
+		)
+		(uuid "6cde879c-08fd-4443-8f7e-826def1b50c3")
 	)
 	(sheet_instances
 		(path "/"
