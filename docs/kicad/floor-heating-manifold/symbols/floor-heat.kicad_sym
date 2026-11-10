@@ -2110,6 +2110,73 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "C"
+		(pin_numbers (hide yes))
+		(pin_names (offset 1.016))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "100nF"
+			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Kondensator ceramiczny odprzęgający, niepolaryzowany"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts (xy -2.032 0.762) (xy 2.032 0.762))
+				(stroke (width 0.508) (type default))
+			)
+			(polyline
+				(pts (xy -2.032 -0.762) (xy 2.032 -0.762))
+				(stroke (width 0.508) (type default))
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "1" (effects (font (size 1.27 1.27))))
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~" (effects (font (size 1.27 1.27))))
+				(number "2" (effects (font (size 1.27 1.27))))
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TERM_N"
 		(pin_numbers (hide yes))
 		(pin_names (offset 0.508) (hide yes))

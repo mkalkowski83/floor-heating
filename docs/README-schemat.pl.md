@@ -19,6 +19,8 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 | U3 | Moduł 2× przekaźnik 5 V | K9 pompa i K10 RT, zworka zdjęta |
 | U4 | DS18B20 | Temperatura zasilania rozdzielacza, montaż przylgowy |
 | U5 | DS18B20 | Temperatura powrotu rozdzielacza, montaż przylgowy |
+| C1 | 100 nF / 50 V | Filtr przy +5 V / GND na wyjściu HLK (PS1). Nie pod 230 V |
+| C2 | 100 nF / 50 V | Filtr przy VIN ESP (U1), między +5 V a GND |
 | R1 | 4,7 kΩ | Pull-up magistrali 1-Wire do 3,3 V |
 | J2–J9 | Zacisk 2-pin | ZAW1–ZAW8. Pin 1 (lewa) = faza z NO, pin 2 (prawa) = kabel do listwy N |
 | J10 | Zacisk 2-pin | Pompa, rezerwa. Pin 1 = faza z NO, pin 2 = kabel do listwy N |
