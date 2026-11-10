@@ -1,24 +1,4 @@
 Lp,Kategoria,Element,Spec / uwagi,Ilość,Jedn.,Faza,Status,Szac. cena (PLN),Link / sklep,Uwagi
-<<<<<<< HEAD
-1,Sterowanie,Moduł przekaźników 8+2,"8× obciążenie 230 V + 2× (pompa, HD); styki NO; optoizolacja preferowana",1,szt.,1 — kupić,do zakupu,,,Gotowy blok
-2,Sterowanie,ESP32 DevKit,board esp32dev; GPIO pod 10 wyjść + 1-Wire,1,szt.,1 — kupić,do zakupu,,,Wi‑Fi; sieć IoT bez WAN
-3,Zasilanie,Zasilacz 5 V DC,≥1 A; ESP + cewki 8+2,1,szt.,1 — kupić,do zakupu,,,
-4,Zasilanie,Zabezpieczenie toru sterowania,bezpiecznik 5 V / RCBO wg instalacji,1,szt.,1 — kupić,do ustalenia,,,Elektryk przy 230 V
-5,Siłowniki,Siłownik termoelektryczny 230 V NC,Gwint jak na rozdzielaczu (często M30×1.5); NC,4,szt.,1 — test,do zakupu,,,Docelowo do 8
-6,Przyłącza,Zaciski / listwa pętli 230 V,L/N + numery 1–8,1,kpl.,1 — kupić,do zakupu,,,
-7,Przyłącza,Kabel HD (suchy styk) → Vaillant,Bramka CO; zacisk RT / uzgodniony przy montażu — NIE Burner off,1,kpl.,1 — kupić,do zakupu,,,VC 15CS/1-5 + eBUS; eBUS = główne HD
-8,Przyłącza,Przewody / tulejki / oznaczniki,"0,75–1,5 mm²; ferrules; numerki",1,kpl.,1 — kupić,do zakupu,,,
-9,Obudowa,Obudowa ESP + przekaźniki + zasilacz,Zapas pod 1-Wire,1,szt.,1 — kupić,do zakupu,,,
-10,Temperatura,DS18B20 sonda Ø~6 mm,1-Wire; przewód 1–2 m,2,szt.,1 — kupić,do zakupu,,,Zasilanie + powrót (belki)
-11,Temperatura,Montaż przylgowy,Opaski + pasta + izolacja,2,kpl.,1 — kupić,do zakupu,,,Bazowy montaż
-12,Temperatura,"Rezystor pull-up 4,7 kΩ",1-Wire DATA↔3V3/5V,1,szt.,1 — kupić,do zakupu,,,
-13,Temperatura (opcja),Tuleja zanurzeniowa G½″,"Ø7–8 mm, L 100–120 mm; gwint potwierdzić",2,szt.,opcjonalnie,opcja A,,,Zamiast przylgu
-14,Temperatura (opcja),Redukcja gwintu,Jeśli korek ≠ G½″,0,szt.,opcjonalnie,wg rozdzielacza,,,
-15,Temperatura (opcja),Zachowanie spustu belki,Trójnik / drugi spust jeśli tuleja zajmuje jedyny,0,kpl.,opcjonalnie,wg rozdzielacza,,,
-16,Rezerwa,Tor pod pompę wtórną 230 V,Kanał 9 w 8+2; bez zakupu pompy/sprzęgła w fazie 1,0,—,1 — tylko tor,n/d,,,Hydraulik osobno
-17,Out,Zigbee na sterowniku,Odrzucone,0,—,out,nie kupować,,,
-18,Docelowo,Moduł dół,Kopia 1–12 (+ opc. 13–15),0,—,2 — dół,odłożone,,,
-=======
 1,Sterowanie,ESP32 DevKit V1,"U1. VIN z +5 V płytki AC. GPIO 16, 17, 18, 19, 21, 22, 23, 25 = zawory; 26 = pompa; 27 = HD; 4 = 1-Wire.",1,szt.,kupiony,kupiony,,,Aktywne LOW. Przy programowaniu nie łączyć USB z +5 V HLK.
 2,Sterowanie,Moduł 8 przekaźników 5 V,"U2. Optoizolacja, zworka JD-VCC–VCC do zdjęcia. Styki NO 10 A. K1–K8 siłowniki 230 V NC.",1,szt.,kupić,do zakupu,,,"VCC przy IN = 3,3 V z ESP. Cewki z +5 V (JD-VCC)."
 3,Sterowanie,Moduł 2 przekaźniki 5 V,"U3. Ten sam typ co U2. K9 pompa (rezerwa), K10 suchy styk RT.",1,szt.,kupić,do zakupu,,,K10 bez 230 V. Nie używać Burner off.
@@ -49,4 +29,3 @@ Lp,Kategoria,Element,Spec / uwagi,Ilość,Jedn.,Faza,Status,Szac. cena (PLN),Lin
 28,Rezerwa,Pompa wtórna i sprzęgło,"Kanał K9, J10 i J29 są na liście. Samej pompy nie kupować.",0,—,nie kupować,n/d,,,Osobna decyzja z hydraulikiem.
 29,Out,Zigbee na sterowniku,"Odrzucone. Moduł jest na Wi-Fi, sieć IoT bez WAN.",0,—,nie kupować,nie kupować,,,
 30,Docelowo,Moduł dół,"Kopia pozycji kupowanych dla modułu góra, łącznie z płytką AC.",0,—,odłożone,odłożone,,,
->>>>>>> c7c0beb (Dodaj kondensatory odprzęgające C1/C2 (100 nF) i wpis BOM)
