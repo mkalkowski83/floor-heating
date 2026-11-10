@@ -20,6 +20,8 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 | U4 | DS18B20 | Temperatura zasilania rozdzielacza, montaż przylgowy |
 | U5 | DS18B20 | Temperatura powrotu rozdzielacza, montaż przylgowy |
 | C1 | 100 nF / 50 V | Filtr przy +5 V / GND na wyjściu HLK (PS1). Nie pod 230 V |
+| D1 | LED czerwona | Świeci, gdy HLK daje +5 V. Szeregowo z R2 |
+| R2 | 1 kΩ | Prąd diody D1 około 3 mA |
 | C2 | 100 nF / 50 V | Filtr przy VIN ESP (U1), między +5 V a GND |
 | R1 | 4,7 kΩ | Pull-up magistrali 1-Wire do 3,3 V |
 | J2–J9 | Zacisk 2-pin | ZAW1–ZAW8. Pin 1 (lewa) = faza z NO, pin 2 (prawa) = kabel do listwy N |
@@ -38,7 +40,7 @@ Eksport schematu KiCad (arkusz A3, jeden moduł przy rozdzielaczu):
 | `AC/L` / `AC/N` | Wejście HLK za F1 |
 | `L_OBC` | Faza za F2. Na listwie J21–J29 pin 2 jest zwarty w jedną linię, a z pinu 1 idzie osobny kabel na COM kanału K1–K9. Styk NO zostaje na pinie 1 zaworu albo pompy. RT (K10) nie jest na tej linii |
 | `N_OBC` | Neutral obciążeń. Przy J1 schodzi na listwę J12–J20: pin 2 tych zacisków jest zwarty w jedną linię, a z pinu 1 idzie osobny kabel do zaworu albo pompy. Nie łączyć z `GND` |
-| `+5V` | Wyjście HLK: VIN ESP i JD-VCC cewek |
+| `+5V` | Wyjście HLK: VIN ESP, JD-VCC cewek i dioda D1 przez R2 |
 | `+3V3` | Z ESP: VCC optoizolacji i pull-up DS18B20. Na GPIO nie podawać 5 V |
 | `GND` | Masa logiki |
 
